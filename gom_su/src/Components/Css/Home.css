@@ -62,7 +62,7 @@
   transform: translateY(50px);
   /* translateY: dịch vật theo trục y, nhưng + là đi xuống, - là đi lên */
   /* translateX: dịch vật theo trục x, - là qua trái, + là qua phải */
-  animation: moveup 0.7s linear forwards;
+  animation: moveup 0.9s linear forwards;
   /* forward: giữ lại giá trị cuối cùng sau khi chạy */
   /* linear: giữ tốc độ từ đầu đến cuối là như nhau */
 }

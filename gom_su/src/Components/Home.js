@@ -27,7 +27,7 @@ const Home = () => {
             aria-label="Slide 2"></button>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="2000">
+          <div className="carousel-item active" data-bs-interval="5000">
             <img
               src="assets/img/slider_1.webp"
               className="carousel-img-css d-block scale-img"
