@@ -1,4 +1,5 @@
 import React from "react";
+import "./Css/Home.css";
 import Header from "./Header";
 const Home = () => {
   return (
