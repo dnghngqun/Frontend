@@ -6,7 +6,7 @@
 }
 
 .carousel-img-css {
-  height: 670px;
+  /* height: 670px; */
   width: 100%;
   overflow: hidden;
   object-fit: cover;
@@ -14,7 +14,7 @@
 }
 
 .slider-text {
-  bottom: 20.25rem;
+  bottom: 18.25rem;
   z-index: 20;
 }
 
@@ -59,8 +59,10 @@
 
 .moveup {
   opacity: 0;
-  transform: translateY(30px);
-  animation: moveup 0.5s linear forwards;
+  transform: translateY(50px);
+  /* translateY: dịch vật theo trục y, nhưng + là đi xuống, - là đi lên */
+  /* translateX: dịch vật theo trục x, - là qua trái, + là qua phải */
+  animation: moveup 0.7s linear forwards;
   /* forward: giữ lại giá trị cuối cùng sau khi chạy */
   /* linear: giữ tốc độ từ đầu đến cuối là như nhau */
 }

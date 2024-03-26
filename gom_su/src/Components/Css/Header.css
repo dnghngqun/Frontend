@@ -5,7 +5,11 @@
   padding: 0 20px;
   height: 76px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.566);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 10;
 }
 
 .h-left img {
