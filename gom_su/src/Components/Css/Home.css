@@ -4,3 +4,21 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
+
+.carousel-img-css {
+  height: 670px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.slider-text {
+  bottom: 20.25rem;
+}
+
+.slider-text .title {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 98px;
+  text-transform: uppercase;
+}
