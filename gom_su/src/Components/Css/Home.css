@@ -107,12 +107,23 @@
   top: 0;
   left: 0;
   z-index: 1;
-  opacity: 1;
-  transition: 2.4s all;
-  /*  all chỉ ra rằng tất cả các thuộc tính CSS  */
 }
 
 .slider-text .btn-slider:hover::before {
-  background-image: linear-gradient(to left, transparent, 70%, #ca6f04);
-  transition: 1s ease;
+  animation: changeBackground 1s step-end;
+}
+
+@keyframes changeBackground {
+  100% {
+    background-image: linear-gradient(to left, transparent, 50%, #ca6f04);
+  }
+  70% {
+    background-image: linear-gradient(to left, transparent, 60%, #ca6f04);
+  }
+  50% {
+    background-image: linear-gradient(to left, transparent, 65%, #ca6f04);
+  }
+  30% {
+    background-image: linear-gradient(to left, transparent, 70%, #ca6f04);
+  }
 }
