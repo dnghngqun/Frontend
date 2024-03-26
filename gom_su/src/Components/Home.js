@@ -33,10 +33,14 @@ const Home = () => {
               className="carousel-img-css d-block scale-img"
               alt="..."
             />
+            <img src="" alt="" />
             <div className="filter"></div>
             <div className="slider-text carousel-caption d-none d-md-block moveup">
               <h2 className="title">Bộ sưu tập</h2>
               <div className="content">Gốm sứ cao cấp</div>
+              <a href="#" className="btn-slider">
+                Khám phá ngay
+              </a>
             </div>
           </div>
           <div className="carousel-item" data-bs-interval="2500">
@@ -49,6 +53,9 @@ const Home = () => {
             <div className="slider-text carousel-caption d-none d-md-block moveup">
               <div className="title">Bộ sưu tập</div>
               <div className="content">Ngược dòng lịch sử</div>
+              <a href="#" className="btn-slider">
+                Khám phá ngay
+              </a>
             </div>
           </div>
         </div>

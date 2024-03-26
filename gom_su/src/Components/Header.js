@@ -1,8 +1,9 @@
 import {
   faBagShopping,
+  faCaretDown,
   faHeart,
   faMagnifyingGlass,
-  faUser,faCaretDown
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -22,8 +23,8 @@ const Header = () => {
             <a href="#">Giới thiệu</a>
           </li>
           <li className="item">
-            <a href="#">Sản phẩm</a>
-            <FontAwesomeIcon icon={faCaretDown} />
+            <a href="#">Sản phẩm </a>
+            <FontAwesomeIcon icon={faCaretDown} style={{ color: "#be742a" }} />
           </li>
           <li className="item">
             <a href="#">Tin tức</a>

@@ -73,3 +73,46 @@
     transform: translateY(0);
   }
 }
+
+/* btn khám phá ngay */
+/* btn khám phá ngay */
+.slider-text .btn-slider {
+  background-image: url("/public/assets/img/background_module.webp");
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #f3eee4;
+  position: relative;
+  top: 50px;
+  font-weight: 600;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slider-text .btn-slider::before {
+  content: "";
+  background-image: linear-gradient(to left, transparent, 80%, #ca6f04);
+  /* linear-gradient: Đây là loại gradient sẽ được sử dụng để tạo nền. Trong trường hợp này, gradient là một đường thẳng. */
+  /*to left: Định nghĩa hướng của gradient. Trong trường hợp này, gradient sẽ diễn ra từ phải sang trái, tức là theo chiều ngược lại của hướng của trục x  */
+  /* transparent: Điểm bắt đầu của gradient là màu trong suốt. */
+  /* 80%: Là điểm dừng của màu trong suốt, tức là từ điểm bắt đầu đến 80% chiều rộng của gradient sẽ là màu trong suốt. */
+  /* #ca6f04: Màu sẽ bắt đầu từ 80% đến cuối chiều rộng của gradient, trong trường hợp này là màu cam (#ca6f04) */
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 1;
+  transition: 2.4s all;
+  /*  all chỉ ra rằng tất cả các thuộc tính CSS  */
+}
+
+.slider-text .btn-slider:hover::before {
+  background-image: linear-gradient(to left, transparent, 70%, #ca6f04);
+  transition: 1s ease;
+}
