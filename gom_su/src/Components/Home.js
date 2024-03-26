@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
       <div
         id="carouselSlider"
-        className="carousel slide"
+        className="carousel slide carousel-fade"
         data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button
@@ -30,23 +30,25 @@ const Home = () => {
           <div className="carousel-item active" data-bs-interval="2000">
             <img
               src="assets/img/slider_1.webp"
-              className="carousel-img-css d-block "
+              className="carousel-img-css d-block scale-img"
               alt="..."
             />
+            <div className="filter"></div>
             <div className="slider-text carousel-caption d-none d-md-block">
               <h2 className="title">Bộ sưu tập</h2>
-              <div className="content">gốm sứ cao cấp</div>
+              <div className="content">Gốm sứ cao cấp</div>
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="5000">
             <img
               src="assets/img/slider_2.webp"
-              className="carousel-img-css d-block"
+              className="carousel-img-css d-block scale-img"
               alt="..."
             />
+            <div className="filter"></div>
             <div className="slider-text carousel-caption d-none d-md-block">
               <div className="title">Bộ sưu tập</div>
-              <div className="content">gốm sứ cao cấp</div>
+              <div className="content">Ngược dòng lịch sử</div>
             </div>
           </div>
         </div>
