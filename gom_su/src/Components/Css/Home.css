@@ -56,3 +56,18 @@
     transform: scale(2);
   } /* Kích thước cuối cùng của hình ảnh */
 }
+
+.moveup {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+  /* forward: giữ lại giá trị cuối cùng sau khi chạy */
+  /* linear: giữ tốc độ từ đầu đến cuối là như nhau */
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

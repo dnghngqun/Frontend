@@ -34,7 +34,7 @@ const Home = () => {
               alt="..."
             />
             <div className="filter"></div>
-            <div className="slider-text carousel-caption d-none d-md-block">
+            <div className="slider-text carousel-caption d-none d-md-block moveup">
               <h2 className="title">Bộ sưu tập</h2>
               <div className="content">Gốm sứ cao cấp</div>
             </div>
@@ -46,7 +46,7 @@ const Home = () => {
               alt="..."
             />
             <div className="filter"></div>
-            <div className="slider-text carousel-caption d-none d-md-block">
+            <div className="slider-text carousel-caption d-none d-md-block moveup">
               <div className="title">Bộ sưu tập</div>
               <div className="content">Ngược dòng lịch sử</div>
             </div>
