@@ -27,7 +27,7 @@ const Home = () => {
             aria-label="Slide 2"></button>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="5000">
+          <div className="carousel-item active" data-bs-interval="4000">
             <img
               src="assets/img/slider_1.webp"
               className="carousel-img-css d-block scale-img"
@@ -39,7 +39,7 @@ const Home = () => {
               <div className="content">Gốm sứ cao cấp</div>
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="5000">
+          <div className="carousel-item" data-bs-interval="4000">
             <img
               src="assets/img/slider_2.webp"
               className="carousel-img-css d-block scale-img"
