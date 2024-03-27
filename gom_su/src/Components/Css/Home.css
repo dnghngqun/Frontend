@@ -107,23 +107,20 @@
   top: 0;
   left: 0;
   z-index: 1;
+  /* background-size: 100% 100%; */
+  transition: 0.5s linear;
 }
 
 .slider-text .btn-slider:hover::before {
-  animation: changeBackground 1s step-end;
+  /* animation: changeBackground 1s linear; */
+  width: 70%;
 }
-
+/* 
 @keyframes changeBackground {
-  100% {
-    background-image: linear-gradient(to left, transparent, 50%, #ca6f04);
+  from {
+    background-image: linear-gradient(to left, transparent, 80%, #ca6f04);
   }
-  70% {
+  to {
     background-image: linear-gradient(to left, transparent, 60%, #ca6f04);
   }
-  50% {
-    background-image: linear-gradient(to left, transparent, 65%, #ca6f04);
-  }
-  30% {
-    background-image: linear-gradient(to left, transparent, 70%, #ca6f04);
-  }
-}
+} */
