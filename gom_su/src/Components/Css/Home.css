@@ -112,15 +112,6 @@
 }
 
 .slider-text .btn-slider:hover::before {
-  /* animation: changeBackground 1s linear; */
   width: 70%;
 }
-/* 
-@keyframes changeBackground {
-  from {
-    background-image: linear-gradient(to left, transparent, 80%, #ca6f04);
-  }
-  to {
-    background-image: linear-gradient(to left, transparent, 60%, #ca6f04);
-  }
-} */
+
