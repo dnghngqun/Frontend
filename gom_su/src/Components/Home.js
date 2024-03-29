@@ -61,6 +61,71 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <section className="section-danhmuc">
+        <div className="container danhmuc-container">
+          <div className="danhmuc">
+            <a href="#">
+              <img src="assets/img/danhmuc_1.webp" alt="" />
+              <div className="shadow-danhmuc"></div>
+              <div className="danhmuc-content">
+                <div className="danhmuc-title">Nồi sứ dưỡng sinh</div>
+                <span className="danhmuc-quantity">+ 0 sản phẩm</span>
+              </div>
+            </a>
+          </div>
+          <div className="danhmuc">
+            <a href="#">
+              <img src="assets/img/danhmuc_2.webp" alt="" />
+              <div className="shadow-danhmuc"></div>
+              <div className="danhmuc-content">
+                <div className="danhmuc-title">Phòng ăn</div>
+                <span className="danhmuc-quantity">+ 30 sản phẩm</span>
+              </div>
+            </a>
+          </div>
+          <div className="danhmuc">
+            <a href="#">
+              <img src="assets/img/danhmuc_3.webp" alt="" />
+              <div className="shadow-danhmuc"></div>
+              <div className="danhmuc-content">
+                <div className="danhmuc-title">Sứ dưỡng sinh</div>
+                <span className="danhmuc-quantity">+ 0 sản phẩm</span>
+              </div>
+            </a>
+          </div>
+          <div className="danhmuc">
+            <a href="#">
+              <img src="assets/img/danhmuc_4.webp" alt="" />
+              <div className="shadow-danhmuc"></div>
+              <div className="danhmuc-content">
+                <div className="danhmuc-title">Trà - cà phê</div>
+                <span className="danhmuc-quantity">+ 21 sản phẩm</span>
+              </div>
+            </a>
+          </div>
+          <div className="danhmuc">
+            <a href="#">
+              <img src="assets/img/danhmuc_5.webp" alt="" />
+              <div className="shadow-danhmuc"></div>
+              <div className="danhmuc-content">
+                <div className="danhmuc-title">Phụ kiện bàn ăn</div>
+                <span className="danhmuc-quantity">+ 0 sản phẩm</span>
+              </div>
+            </a>
+          </div>
+          <div className="danhmuc">
+            <a href="#">
+              <img src="assets/img/danhmuc_6.webp" alt="" />
+              <div className="shadow-danhmuc"></div>
+              <div className="danhmuc-content">
+                <div className="danhmuc-title">Sứ nghệ thuật</div>
+                <span className="danhmuc-quantity">+ 0 sản phẩm</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <hr />
     </div>
   );
 };
