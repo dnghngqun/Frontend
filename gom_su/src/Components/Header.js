@@ -22,9 +22,110 @@ const Header = () => {
           <li className="item">
             <a href="#">Giới thiệu</a>
           </li>
-          <li className="item">
+          <li className="item dropdown-product">
             <a href="#">Sản phẩm </a>
-            <FontAwesomeIcon icon={faCaretDown} style={{ color: "#be742a" }} />
+            <FontAwesomeIcon icon={faCaretDown} className="caretDown" />
+            <div className="dropdown-container row">
+              <div className="dropdown-left col-lg-8">
+                <div className="row row-dropdown">
+                  <ul className="col-lg-4">
+                    <li className="dropdown-title dropdown-h">
+                      <a href="#">Phòng ăn</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Tô - Chén - Dĩa</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Thố - Khay</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Ca - Ly</a>
+                    </li>
+                  </ul>
+                  <ul className=" col-lg-4">
+                    <li className="dropdown-title dropdown-h">
+                      <a href="#">Trà - cà phê</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Bộ Trà</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Cà phê</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Phụ kiện trà - cà phê</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Phụ kiện cà phê</a>
+                    </li>
+                  </ul>
+                  <ul className=" col-lg-4">
+                    <li className="dropdown-title dropdown-h">
+                      <a href="#">Nồi sứ dưỡng sinh</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Luna</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Vesta</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Ấm - Chảo</a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="row row-dropdown">
+                  <ul className="col-lg-4">
+                    <li className="dropdown-title dropdown-h">
+                      <a href="#">Sứ dưỡng sinh</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Ly sứ dưỡng sinh</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Hộp sứ dưỡng sinh</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Đũa sứ</a>
+                    </li>
+                  </ul>
+                  <ul className="col-lg-4">
+                    <li className="dropdown-title dropdown-h">
+                      <a href="#">Phụ kiện bàn ăn</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Muỗng - Đũa</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Túi vải canvas</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Gác đũa sứ</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Phụ kiện khác</a>
+                    </li>
+                  </ul>
+                  <ul className="col-lg-4">
+                    <li className="dropdown-title dropdown-h">
+                      <a href="#">Sứ nghệ thuật</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Tượng Linh Vật</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Tượng trang trí</a>
+                    </li>
+                    <li className="dropdown-title">
+                      <a href="#">Bình Hoa</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="dropdown-right col-lg-4 ">
+                <img src="assets/img/megamenu_banner.webp"  />
+              </div>
+            </div>
           </li>
           <li className="item">
             <a href="#">Tin tức</a>
