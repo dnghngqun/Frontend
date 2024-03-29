@@ -14,7 +14,7 @@
 }
 
 .slider-text {
-  bottom: 18.25rem;
+  bottom: 16.25rem;
   z-index: 20;
 }
 
@@ -67,6 +67,14 @@
   /* linear: giữ tốc độ từ đầu đến cuối là như nhau */
 }
 
+.moveup.content {
+  animation: moveup 1.1s linear forwards;
+}
+
+.moveup.btn-slider {
+  animation: moveup 1.2s linear forwards;
+}
+
 @keyframes moveup {
   100% {
     opacity: 1;
@@ -114,4 +122,3 @@
 .slider-text .btn-slider:hover::before {
   width: 70%;
 }
-

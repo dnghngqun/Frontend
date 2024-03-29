@@ -11,7 +11,9 @@ const Home = () => {
       <div
         id="carouselSlider"
         className="carousel slide carousel-fade"
-        data-bs-ride="carousel">
+        data-bs-ride="carousel"
+        data-bs-touch="false"
+        pause="false">
         <div className="carousel-indicators">
           <button
             type="button"
@@ -27,33 +29,32 @@ const Home = () => {
             aria-label="Slide 2"></button>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="2500">
+          <div className="carousel-item active" data-bs-interval="2400">
             <img
               src="assets/img/slider_1.webp"
               className="carousel-img-css d-block scale-img"
               alt="..."
             />
-            <img src="" alt="" />
             <div className="filter"></div>
-            <div className="slider-text carousel-caption d-none d-md-block moveup">
-              <h2 className="title">Bộ sưu tập</h2>
-              <div className="content">Gốm sứ cao cấp</div>
-              <a href="#" className="btn-slider">
+            <div className="slider-text carousel-caption d-none d-md-block ">
+              <h2 className="moveup title">Bộ sưu tập</h2>
+              <div className="moveup content">Gốm sứ cao cấp</div>
+              <a href="#" className="moveup btn-slider">
                 Khám phá ngay
               </a>
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="2500">
+          <div className="carousel-item" data-bs-interval="2400">
             <img
               src="assets/img/slider_2.webp"
               className="carousel-img-css d-block scale-img"
               alt="..."
             />
             <div className="filter"></div>
-            <div className="slider-text carousel-caption d-none d-md-block moveup">
-              <div className="title">Bộ sưu tập</div>
-              <div className="content">Ngược dòng lịch sử</div>
-              <a href="#" className="btn-slider">
+            <div className="slider-text carousel-caption d-none d-md-block ">
+              <div className="moveup title">Bộ sưu tập</div>
+              <div className="moveup content">Ngược dòng lịch sử</div>
+              <a href="#" className="moveup btn-slider">
                 Khám phá ngay
               </a>
             </div>
