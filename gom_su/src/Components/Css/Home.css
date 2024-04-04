@@ -1,5 +1,5 @@
 :root {
-  --section-danhmuc: 190px;
+  --section-danhmuc: 150px;
 }
 
 * {
@@ -172,7 +172,7 @@
 }
 
 .danhmuc:hover img {
-  transform: translateY(-10px);
+  transform: translateY(-12px);
   transition: 0.7s ease;
 }
 .danhmuc {
@@ -183,7 +183,7 @@
   height: var(--section-danhmuc);
   border-radius: 50%;
   z-index: -10;
-  background-image: linear-gradient(to bottom, transparent, 96%, #ca6f04);
+  background-image: linear-gradient(to bottom, transparent, 96%, #ec8510);
   position: absolute;
   top: 0;
   left: 0;

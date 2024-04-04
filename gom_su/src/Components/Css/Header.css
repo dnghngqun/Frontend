@@ -73,6 +73,11 @@
   height: 100%;
 }
 
+.h-right .icon:hover {
+  color: #e98827;
+  transition: 0.3s ease;
+}
+
 .i-link {
   position: relative;
 }
@@ -147,4 +152,3 @@
   visibility: visible;
   transform: translateY(0%);
 }
-
