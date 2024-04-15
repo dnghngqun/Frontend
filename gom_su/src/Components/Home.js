@@ -125,6 +125,22 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="section-banner">
+        <div className="container">
+          <div className="row justify-content-between">
+            <div className="col-md-6 col-12">
+              <a href="#">
+                <img src="assets/img/banner1.webp" alt="" />
+              </a>
+            </div>
+            <div className="col-md-6 col-12">
+              <a href="#">
+                <img src="assets/img/banner2.webp" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <hr />
     </div>
   );

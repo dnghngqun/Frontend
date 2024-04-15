@@ -188,3 +188,29 @@
   top: 0;
   left: 0;
 }
+
+/* section banner */
+.section-banner a img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.section-banner a {
+  width: 100%;
+}
+
+.section-banner div {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* .section-banner a:hover { */
+/* transform: rotate(3deg); */
+/* } */
+
+.section-banner a:hover img {
+  transform: rotate(10deg) scale(1.19);
+  transition: 1s;
+}
