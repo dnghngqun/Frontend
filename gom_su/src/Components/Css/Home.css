@@ -194,23 +194,21 @@
   object-fit: cover;
   max-width: 100%;
   height: auto;
-  border-radius: 15px;
 }
 
 .section-banner a {
-  width: 100%;
-}
-
-.section-banner div {
-  border-radius: 15px;
+  display: block;
+  border-radius: 10px;
   overflow: hidden;
 }
 
-/* .section-banner a:hover { */
-/* transform: rotate(3deg); */
-/* } */
+.section-banner {
+  margin-top: 40px;
+}
+
+
 
 .section-banner a:hover img {
-  transform: rotate(10deg) scale(1.19);
-  transition: 1s;
+  transform: rotate(6deg) scale(1.16);
+  transition: 0.8s;
 }
