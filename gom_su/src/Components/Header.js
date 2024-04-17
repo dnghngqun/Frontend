@@ -149,8 +149,12 @@ const Header = () => {
         <a href="#" className="dropdown-user">
           <FontAwesomeIcon className="icon i-user" size="lg" icon={faUser} />
           <div className="dropdown-user-container">
-            <a href="#">Đăng ký</a>
-            <a href="#">Đăng nhập</a>
+            <a href="#" className="dropdown-user-item">
+              Đăng ký
+            </a>
+            <a href="#" className="dropdown-user-item">
+              Đăng nhập
+            </a>
           </div>
         </a>
         <a href="#" className="link-heart i-link">

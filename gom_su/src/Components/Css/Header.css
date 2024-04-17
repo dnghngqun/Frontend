@@ -152,3 +152,8 @@
   visibility: visible;
   transform: translateY(0%);
 }
+
+/* dropdown user */
+.dropdown-user-container{
+  display: none;
+}
