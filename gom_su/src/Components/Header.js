@@ -123,7 +123,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="dropdown-right col-lg-4 ">
-                <img src="assets/img/megamenu_banner.webp"  />
+                <img src="assets/img/megamenu_banner.webp" />
               </div>
             </div>
           </li>
@@ -146,8 +146,12 @@ const Header = () => {
             icon={faMagnifyingGlass}
           />
         </a>
-        <a href="#">
+        <a href="#" className="dropdown-user">
           <FontAwesomeIcon className="icon i-user" size="lg" icon={faUser} />
+          <div className="dropdown-user-container">
+            <a href="#">Đăng ký</a>
+            <a href="#">Đăng nhập</a>
+          </div>
         </a>
         <a href="#" className="link-heart i-link">
           <FontAwesomeIcon className="icon i-heart" size="lg" icon={faHeart} />
