@@ -155,6 +155,8 @@
 
 /* dropdown user */
 .dropdown-user-container {
-  display: none;
-  transition: none;
+  /* display: none; */
+  position: relative;
+  top: 0;
+  right: 0;
 }
