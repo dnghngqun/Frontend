@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .carousel-img-css {
@@ -168,8 +168,8 @@
 
 .danhmuc .danhmuc-content .danhmuc-quantity {
   color: #878787;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .danhmuc:hover img {
