@@ -1,5 +1,5 @@
 :root {
-  --section-danhmuc: 150px;
+  --section-danhmuc: 170px;
 }
 
 * {
@@ -163,12 +163,13 @@
 .danhmuc .danhmuc-content {
   text-align: center;
   margin-top: 15px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .danhmuc .danhmuc-content .danhmuc-quantity {
   color: #878787;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .danhmuc:hover img {
@@ -192,21 +193,19 @@
 /* section banner */
 .section-banner a img {
   object-fit: cover;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
 }
 
 .section-banner a {
   display: block;
   border-radius: 10px;
   overflow: hidden;
+  width: 98%;
 }
 
 .section-banner {
   margin-top: 40px;
 }
-
-
 
 .section-banner a:hover img {
   transform: rotate(6deg) scale(1.16);
