@@ -152,7 +152,6 @@ const Header = () => {
             <a href="#" className="dropdown-user-item">
               Đăng ký
             </a>
-            <br />
             <a href="#" className="dropdown-user-item">
               Đăng nhập
             </a>
