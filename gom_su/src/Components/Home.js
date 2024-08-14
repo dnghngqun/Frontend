@@ -2,13 +2,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "jquery/dist/jquery";
 import React from "react";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import "./Css/Home.css";
 import Header from "./Header";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 const Home = () => {
   return (
     <div>
       <Header />
-      <div
+      {/* <div
         id="carouselSlider"
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
@@ -60,7 +68,46 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Swiper
+        // install Swiper modules
+        modules={[Pagination, Navigation, EffectFade, Autoplay]}
+        effect="fade"
+        slidesPerView={1}
+        autoplay={{ delay: 2400, disableOnInteraction: false }}
+        pagination={{ clickable: false }}
+        loop={true}>
+        <SwiperSlide className="slider-container">
+          <img
+            src="assets/img/slider_1.webp"
+            className="carousel-img-css d-block scale-img"
+            alt="..."
+          />
+          <div className="filter"></div>
+          <div className="slider-text  d-none d-md-block ">
+            <h2 className="moveup title">Bộ sưu tập</h2>
+            <div className="moveup content">Gốm sứ cao cấp</div>
+            <a href="#" className="moveup btn-slider">
+              Khám phá ngay
+            </a>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <img
+            src="assets/img/slider_2.webp"
+            className="carousel-img-css d-block scale-img"
+            alt="..."
+          />
+          <div className="filter"></div>
+          <div className="slider-text  d-none d-md-block ">
+            <div className="moveup title">Bộ sưu tập</div>
+            <div className="moveup content">Ngược dòng lịch sử</div>
+            <a href="#" className="moveup btn-slider">
+              Khám phá ngay
+            </a>
+          </div>
+        </SwiperSlide>
+      </Swiper>
       <section className="section-danhmuc">
         <div className="container danhmuc-container">
           <div className="danhmuc">

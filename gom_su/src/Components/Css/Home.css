@@ -16,10 +16,15 @@
   object-fit: cover;
   position: relative;
 }
+.slider-container {
+  position: relative;
+}
 
 .slider-text {
-  bottom: 34%;
+  position: absolute;
+  top: 20%;
   z-index: 20;
+  color: #f3eee4;
 }
 
 .slider-text .title {
@@ -210,4 +215,16 @@
 .section-banner a:hover img {
   transform: rotate(6deg) scale(1.16);
   transition: 0.8s;
+}
+
+.swiper-pagination {
+  margin-bottom: 20px;
+}
+.swiper-pagination-bullet {
+  width: 25px !important;
+  height: 3px !important;
+  border-radius: 0 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
 }
