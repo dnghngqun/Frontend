@@ -22,23 +22,35 @@
 
 .slider-text {
   position: absolute;
-  top: 20%;
+  top: 35%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%) !important;
   z-index: 20;
   color: #f3eee4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
 }
 
 .slider-text .title {
-  font-size: 70px;
-  font-weight: 800;
-  line-height: 98px;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 140px;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
 .slider-text .content {
   font-family: "Allura", cursive;
-  font-weight: 500;
-  font-size: 120px;
-  line-height: 20px;
+  font-weight: 550;
+  font-size: 162px;
+  line-height: 49px;
   text-shadow: 2px 2px 6px #878787;
   font-style: italic;
 }
@@ -94,9 +106,10 @@
 /* btn khám phá ngay */
 /* btn khám phá ngay */
 .slider-text .btn-slider {
+  font-family: "Dosis", sans-serif;
   background-image: url("/public/assets/img/background_module.webp");
-  font-size: 18px;
-  padding: 10px 40px;
+  font-size: 24px;
+  padding: 12px 40px;
   border-radius: 40px;
   text-decoration: none;
   color: #000;
@@ -105,9 +118,10 @@
   background-color: #f3eee4;
   position: relative;
   top: 50px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   overflow: hidden;
+  letter-spacing: 3px;
 }
 
 .slider-text .btn-slider::before {
@@ -119,7 +133,7 @@
   /* 80%: Là điểm dừng của màu trong suốt, tức là từ điểm bắt đầu đến 80% chiều rộng của gradient sẽ là màu trong suốt. */
   /* #ca6f04: Màu sẽ bắt đầu từ 80% đến cuối chiều rộng của gradient, trong trường hợp này là màu cam (#ca6f04) */
   height: 100%;
-  width: 30%;
+  width: 40%;
   position: absolute;
   top: 0;
   left: 0;

@@ -84,7 +84,7 @@ const Home = () => {
             alt="..."
           />
           <div className="filter"></div>
-          <div className="slider-text  d-none d-md-block ">
+          <div className="slider-text  d-none d-md-flex ">
             <h2 className="moveup title">Bộ sưu tập</h2>
             <div className="moveup content">Gốm sứ cao cấp</div>
             <a href="#" className="moveup btn-slider">
@@ -99,7 +99,7 @@ const Home = () => {
             alt="..."
           />
           <div className="filter"></div>
-          <div className="slider-text  d-none d-md-block ">
+          <div className="slider-text  d-none d-md-flex ">
             <div className="moveup title">Bộ sưu tập</div>
             <div className="moveup content">Ngược dòng lịch sử</div>
             <a href="#" className="moveup btn-slider">
